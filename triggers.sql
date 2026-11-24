@@ -28,22 +28,22 @@ INSERT INTO Pedidos (cliente_id, data, hora) VALUES
 ("27", curdate(), curtime());
 
 INSERT INTO Itens_Pedido (pedido_id, pizza_id, quantidade, valor) 
-VALUES (30, 3, 2, (SELECT valor FROM Pizzas WHERE pizza_id = 3));
+VALUES (27, 3, 2, (SELECT valor FROM Pizzas WHERE pizza_id = 3));
 
 INSERT INTO Itens_Pedido (pedido_id, pizza_id, quantidade, valor) 
-VALUES (30, 16, 1, (SELECT valor FROM Pizzas WHERE pizza_id = 16));
+VALUES (27, 16, 1, (SELECT valor FROM Pizzas WHERE pizza_id = 16));
 
 INSERT INTO Itens_Pedido (pedido_id, pizza_id, quantidade, valor) 
-VALUES (31, 39, 2, (SELECT valor FROM Pizzas WHERE pizza_id = 39));
+VALUES (28, 39, 2, (SELECT valor FROM Pizzas WHERE pizza_id = 39));
 
 INSERT INTO Itens_Pedido (pedido_id, pizza_id, quantidade, valor) 
-VALUES (31, 20, 1, (SELECT valor FROM Pizzas WHERE pizza_id = 20));
+VALUES (28, 20, 1, (SELECT valor FROM Pizzas WHERE pizza_id = 20));
 
 INSERT INTO Itens_Pedido (pedido_id, pizza_id, quantidade, valor) 
-VALUES (32, 11, 1, (SELECT valor FROM Pizzas WHERE pizza_id = 11));
+VALUES (29, 11, 1, (SELECT valor FROM Pizzas WHERE pizza_id = 11));
 
 INSERT INTO Itens_Pedido (pedido_id, pizza_id, quantidade, valor) 
-VALUES (32, 22, 2, (SELECT valor FROM Pizzas WHERE pizza_id = 22));
+VALUES (29, 22, 2, (SELECT valor FROM Pizzas WHERE pizza_id = 22));
 
 
 -- teste
